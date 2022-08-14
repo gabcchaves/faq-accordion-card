@@ -45,12 +45,11 @@ body {
 
 .image-container {
 	background:
-		url("images/illustration-box-desktop.svg") -10% 55% / 40% no-repeat,
-		url("images/illustration-woman-online-desktop.svg") 100% 10% no-repeat,
-		url("images/bg-pattern-desktop.svg") -50% 90% / 100% no-repeat;
+		url("images/illustration-box-desktop.svg") no-repeat -10% 55% / 40%,
+		url("images/illustration-woman-online-desktop.svg") no-repeat 100% 10%,
+		url("images/bg-pattern-desktop.svg") no-repeat 4000% 90%; /* ? :) */
+	background-size: 50%, 100%, 101%; /* ? :) */
 	width: 100%;
-	margin: 0 0 0 -10%;
-    padding: 0 0 0 10%;
 }
 
 .card-info {
